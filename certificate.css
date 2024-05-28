@@ -1,0 +1,164 @@
+ body{
+        position: relative;
+        background-color: rgb(161, 156, 156);
+    }
+    .container{
+        position: relative;
+        background-color: rgb(242, 41, 5);
+        width: 150mm;
+        height: 120mm;
+        margin: 20mm;
+        border-radius: 1mm;
+        overflow: hidden;
+    }
+    .round1{
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        height: 155mm;
+        width: 155mm;
+        top: -27mm;
+        left: 21mm;
+        border-radius: 50%;
+        transform: skew(-28deg);
+        overflow: hidden;
+    }
+    .round2{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 155mm;
+        width: 155mm;
+        top: -51mm;
+        left: 21mm;
+        border: 10mm solid black;
+        border-radius: 50%;
+        transform: skew(-28deg);
+        overflow: hidden;
+    }
+    .round3{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 155mm;
+        width: 155mm;
+        top: -33mm;
+        left: 17mm;
+        border: 4mm solid rgb(132, 118, 118);
+        border-radius: 50%;
+        transform: skew(-28deg);
+        overflow: hidden;
+    }
+    .box1{
+        position: absolute;
+        width: 150mm;
+        height: 115mm;
+        border: 0.5mm solid rgb(161, 156, 156);
+        top: 32mm;
+        left: -18mm;
+        transform: skew(28deg);
+        
+    }
+    .box2{
+        position: absolute;
+        width: 150mm;
+        height: 115mm;
+        border: 0.5mm solid rgb(161, 156, 156);
+        top: 30mm;
+        left: -17mm;
+        transform: skew(28deg);
+    
+    }
+    .container2{
+        position: absolute;
+        width: 150mm;
+        height: 120mm;
+        top: 0mm;
+        left: 20mm;
+        overflow: hidden;
+    }
+    .cert{
+        position: absolute;
+        width: 150mm;
+        height: 120mm;
+        top: 2mm;
+        left: 69mm;
+    }
+    .para1{
+        position: relative;
+        width: 150mm;
+        height: 120mm;
+        top: 12mm;
+        left: 79.5mm;
+    }
+    .line1{
+        position: absolute;
+        height: 8mm;
+        width: 84mm;
+        top: 27mm;
+        left: 55mm;
+        background-color:rgb(203, 93, 37) ;
+    }
+    .square1{
+        position: absolute;
+        height: 8mm;
+        width: 8mm;
+        top: 27mm;
+        left: 49mm;
+        background-color:rgb(255, 255, 255) ;
+        rotate: 45deg;
+    
+    }
+    .square2{
+        position: absolute;
+        height: 8mm;
+        width: 8mm;
+        top: 27mm;
+        left: 137mm;
+        background-color:rgb(255, 255, 255) ;
+        rotate: 45deg;
+    }
+    .para2{
+        position: absolute;
+        top: 25.55mm;
+        left: 59mm;
+        color: rgb(255, 255, 255);
+        font-size: smaller;
+    }
+    .para3{
+        position: absolute;
+        top: 30mm;
+        left: 50mm;
+        color: black;
+        font-family: "Dancing Script";
+        font-size: 15mm;
+    }
+    .para4{
+        position: absolute;
+        top: 58mm;
+        left: 37mm;
+        color: black;
+        margin: 4mm;
+    }
+    .para5{
+        position: absolute;
+        top: 87mm;
+        left: 39mm;
+
+    }
+    .para6{
+        position: absolute;
+        top: 92mm;
+        left: 40mm;
+
+    }
+    .para7{
+        position: absolute;
+        top: 87mm;
+        left: 87mm;
+
+    }
+    .para8{
+    position: absolute;
+    top: 92mm;        
+    left: 88mm;
+
+    }
+
